@@ -1,2 +1,182 @@
+/*CSS for all pages*/
+
+body{
+	background: rgb(48, 213, 200);
+}
+
+h1, h2, h3, h4, h5, p {
+	font-family: Georgia, serif;
+}
+
+Strong{
+	font-weight: 600;
+}
+
+/*navigation bar for all three pages*/
+#mainNavBar {
+	font-family: 'Lilita One', cursive;
+ 	font-size: 20px;
+  	background-color: #000000;
+	overflow: hidden;
+ 	width: 100%;
+}
+
+#navigationBar {
+  	float: left;
+  	width: 100%;
+  	position: relative;
+}
+
+#mainNavBar ul {
+  	list-style-type: none;
+  	margin: 0;
+  	position: relative;
+  	left: 50%;
+  	float: left;
+}
+
+#mainNavBar ul li {
+  	float: left;
+  	position: relative;
+  	right: 50%;
+  	display: block;
+}
+
+#mainNavBar ul li a {
+	display: block;
+  	padding: 10px 20px;
+  	color: #FFFFFF;
+  	text-decoration: none;
+}
+
+#mainNavBar ul li a:hover {
+  	text-decoration: underline;
+  	text-decoration-color: #000000;
+  	text-decoration-thickness: 5px;
+}
+
+#onpage {
+	background-color: #000000;
+}
+
+/*CSS for Resume*/
+#resumePage {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#rasumeH1{
+  	float: left;
+    padding: 2px;
+    width: 500px;
+    margin: 92px 2px 42px 40px;
+    font-family: 'Roboto';
+    font-size: 45px;
+}
+
+#myPicture{
+  	float: left;
+  	width: 6em;
+  	margin: 72px 42px 42px 2px;
+}
+
+#top {
+  	clear: both;
+  	background-color: #FAF9F6;
+	width: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 5%;
+  	margin-bottom: 5%;
+  	padding: 60px 30px;
+  	width: 816px;
+  	height: 1056px;
+  	font-size: 11px;
+  	line-height: 1;
+}
+
+.center{
+  	text-align: center;
+}
+
+#mySkills{
+  	border-top: 1px solid black;
+ 	padding-top: 10px;
+}
+
+/*CSS for java*/
+#about_the_language {
+  	padding: 2px;
+  	width: 500px;
+  	margin: 92px 2px 42px 40px;
+  	font-family: 'Roboto';
+}
+
+#picture{
+  	float: left;
+  	width: 15em;
+  	height: 10em;
+  	margin: 00px 42px 42px 42px;
+}
+
+
+.basicFact {
+  	color : whitesmoke;
+  	display: inline-block;
+  	margin: 20px 0;
+	width: 100%;
+  	padding: 8px 0;
+	border: 2px solid whitesmoke;
+  	border-radius: 25px;
+  	background-color: #222;
+  	opacity: 0.8;
+}
+
+.basicFact h4, .basicFact p {
+  	padding: 0 16px;
+  	margin-bottom: 4px;
+}
+
+/*CSS for C++*/
+
+/* Main Content Styles */
+
+#about_the_language h1 {
+  	font-size: 2.5em;
+}
+
+#video {
+  	max-width: 700px;
+  	margin: 0 auto;
+  	margin-top: 50px;
+  	margin: 00px 42px 42px 400px;
+}
+
+#basicFacts {
+  	max-width: 700px;
+  	margin: 0 auto;
+  	margin-top: 50px;
+}
+
+#basicFacts p {
+  	margin-bottom: 20px;
+}
+
+#basicFacts h4 {
+  	font-size: 1.5em;
+  	font-weight: 700;
+  	margin-top: 30px;
+  	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
