@@ -16,18 +16,21 @@ function init(){
 	var marker = new google.maps.Marker({
 		position: myFav1,
 		map: myMap,
+		animation: google.maps.Animation.DROP,
 		icon: 'media/iceCream.png'
 		
 	});
 	var marker2 = new google.maps.Marker({
 		position: myFav2,
 		map: myMap,
+		animation: google.maps.Animation.DROP,
 		icon: 'media/indianGarden.png'
 		
 	});
 	var marker3 = new google.maps.Marker({
 		position: myFav3,
 		map: myMap,
+		animation: google.maps.Animation.DROP,
 		icon: 'media/greenMill.png'
 		
 	});
@@ -44,7 +47,6 @@ function init(){
     	infowindow.open(myMap, marker);
   	});
 	
-
 	var infowindow2 = new google.maps.InfoWindow({
       content: contentString2
   	});
