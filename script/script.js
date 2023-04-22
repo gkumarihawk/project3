@@ -1,5 +1,5 @@
-function init(){
-	var canvas = document.getElementById('canvas');
+/*function init(){
+	var el = document.getElementById('canvas');
 	var myFav1 = new google.maps.LatLng(41.851611, -87.632264);
 	var myFav2 = new google.maps.LatLng(41.893300, -87.620830);
 	var myFav3 = new google.maps.LatLng(41.9691831, -87.6598913);
@@ -11,7 +11,7 @@ function init(){
 		}
 	};
 
-	var myMap = new google.maps.Map(canvas, maps);
+	var myMap = new google.maps.Map(el, maps);
 
 	var marker = new google.maps.Marker({
 		position: myFav1,
@@ -64,4 +64,13 @@ function init(){
   	});
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', init);*/
+
+function initMap(){
+  var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', initMap);

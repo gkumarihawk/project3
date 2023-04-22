@@ -12,7 +12,7 @@ Strong{
 	font-weight: 600;
 }
 
-/*navigation bar for all three pages*/
+/*navigation bar for all 4 pages*/
 #mainNavBar {
 	font-family: 'Lilita One', cursive;
  	font-size: 20px;
@@ -169,6 +169,17 @@ Strong{
   	margin-bottom: 10px;
 }
 
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
 
 
