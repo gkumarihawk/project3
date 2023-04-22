@@ -169,17 +169,28 @@ Strong{
   	margin-bottom: 10px;
 }
 
- /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+/*MAP*/
+.map-page {
+	background-image: url("../images/sky.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	margin: 10px;
+}	
+#wrapper {
+	width: 750px;
+	height: 650px;
+	background-color: gray;
+	margin:0 auto;
+	overflow: hidden;
+		}
+#canvas {
+	width: 600px;
+	height: 500px;
+	background-color: gray;
+	margin: 50px auto;
+		}
 
 
 

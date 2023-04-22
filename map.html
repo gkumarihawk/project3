@@ -26,12 +26,12 @@
 	  <div id="canvas"></div>
 	  <h2> My favourite places in Chicago </h2>
 	</div>
-	<div id="googleMap"></div>
+	<div id="map"></div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA-PUPVYQCmodvdyAwpT-MA5pKKVjiR90&callback=myMap"></script>
   </body>
 </html>-->
 
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
   <head>
     <title>Simple Map</title>
@@ -52,5 +52,45 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
     async defer></script>
+  </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Map </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script async type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body class="map-page">
+    <header>
+      <nav id="header-navbar">
+        <div id="navbar">
+          <ul>
+            <li><a href="index.html">Resume</a></li>
+            <li><a href="show.html">Show</a></li>
+            <li><a href="illinois.html">Illinois</a></li>
+            <li><a href="map.html">Map</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <h1> Map of Illinois </h1>
+      <div id="wrapper">
+        <div id="canvas"></div>
+        <h2> Scroll out to see the other locations of Illinois </h2>
+      </div>
+    </section>
+    <section id="footer">
+      <footer>
+        <p>Created by Bisma Khan</p>
+        <address>
+          <p><a href="mailto:bkhan2@hawk.iit.edu">Send an Email: bkhan2@hawk.iit.edu</a></p>
+        </address>
+      </footer>
+    </section>
   </body>
 </html>
