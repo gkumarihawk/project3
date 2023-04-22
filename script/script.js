@@ -78,9 +78,9 @@ google.maps.event.addDomListener(window, 'load', initMap);*/
 function init(){
 	//alert('it works');
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.881416037821374, -87.62371107312794);
-	var myLocation2 = new google.maps.LatLng(42.36753131192254, -87.93324023323575);
-	var myLocation3 = new google.maps.LatLng(41.77236943257747, -88.15194568534602);
+	var myLocation = new google.maps.LatLng(41.851611, -87.632264);
+	var myLocation2 = new google.maps.LatLng(41.893300, -87.620830);
+	var myLocation3 = new google.maps.LatLng(41.9691831, -87.6598913);
 	var mapOptions = {
 		center: myLocation2,
 		zoom: 18,
