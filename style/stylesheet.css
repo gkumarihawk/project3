@@ -171,7 +171,7 @@ Strong{
 
 /*MAP*/
 .map-page {
-	background-image: url("../images/sky.png");
+	background-image: url("media/chicago.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

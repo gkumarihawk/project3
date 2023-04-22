@@ -17,26 +17,26 @@ function init(){
 	var marker = new google.maps.Marker({
 		position: myLocation,
 		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'images/fountain.png'
+		animation: google.maps.Animation.DROP,
+		icon: 'media/iceCream.png'
 		
 	});
 	var marker2 = new google.maps.Marker({
 		position: myLocation2,
 		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'images/ride.png'
+		animation: google.maps.Animation.DROP,
+		icon: 'media/indianGarden.png'
 		
 	});
 	var marker3 = new google.maps.Marker({
 		position: myLocation3,
 		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'images/city.png'
+		animation: google.maps.Animation.DROP,
+		icon: 'media/iceCream.png'
 		
 	});
 
-	var contentString ="<h1>Millenium Park</h1><p>A public park located in the Loop community area of Chicago </p>";
+	var contentString ="<h1>Legend Tasty House</h1><p>This is my favourite icecream place. You should definitely try their Double Trouble. </p>";
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
@@ -46,7 +46,7 @@ function init(){
     	infowindow.open(myMap, marker);
   	});
 	
-var contentString2 ="<h1>Six Flags</h1><p>Thrilling theme/water park featuring more than 100 rides, shows, and attractions. </p>";
+	var contentString2 ="<h1>Indian Garden Restaurant</h1><p>This is the best Indian Restaurant in Chicago. You should try their weekend buffet it is only $25. </p>";
 
 	var infowindow2 = new google.maps.InfoWindow({
       content: contentString2
@@ -55,7 +55,8 @@ var contentString2 ="<h1>Six Flags</h1><p>Thrilling theme/water park featuring m
 	google.maps.event.addListener(marker2, 'mouseover', function() {
     	infowindow2.open(myMap, marker2);
   	});
-var contentString3 ="<h1>Naperville</h1><p>Just 30 minutes from Chicago, Downtown Naperville is the destination of choice for shopping, dining and enjoying.</p>";
+
+	var contentString3 ="<h1>Green Mill</h1><p>It is an Italian Jazz bar uptown. It has some nice Jazz music. Their cocktails is super cheap (Drink Responsibly).</p>";
 
 	var infowindow3 = new google.maps.InfoWindow({
       content: contentString3
