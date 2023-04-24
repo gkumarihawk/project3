@@ -179,16 +179,16 @@ Strong{
 	margin: 10px;
 }	
 #wrapper {
-	width: 750px;
+	width: 1000px;
 	height: 650px;
-	background-color: gray;
+	background-color: black;
 	margin:0 auto;
 	overflow: hidden;
 		}
 #canvas {
-	width: 600px;
+	width: 1000px;
 	height: 500px;
-	background-color: gray;
+	background-color: black;
 	margin: 50px auto;
 		}
 
