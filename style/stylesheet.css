@@ -137,6 +137,19 @@ Strong{
   	margin-bottom: 4px;
 }
 
+@media screen and (max-width: 600px) {
+  .top {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.myPicture{object-fit: fill;}
+.resumePage {
+  padding: 16px;
+}
+
+
 /*CSS for C++*/
 
 /* Main Content Styles */
@@ -167,7 +180,27 @@ Strong{
   	font-weight: 700;
   	margin-top: 30px;
   	margin-bottom: 10px;
+
 }
+
+@media screen and (max-width: 600px) {
+  .ILcol {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.title {
+  padding:20px;
+  text-align: center;
+}
+
 
 /*MAP*/
 .map-page {
