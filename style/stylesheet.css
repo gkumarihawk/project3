@@ -196,7 +196,7 @@ Strong{
     margin-bottom: 10px;
   }
 }
-.title {
+.about_the_language {
   padding:20px;
   text-align: center;
 }
@@ -224,7 +224,10 @@ Strong{
 	background-color: black;
 	margin: 50px auto;
 		}
-
+.header {
+	text-align: center;
+	font-family: sans-serif;
+}
 
 
 
