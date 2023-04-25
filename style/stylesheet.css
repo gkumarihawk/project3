@@ -67,11 +67,11 @@ Strong{
 
 #rasumeH1{
   	float: left;
-    padding: 2px;
-    width: 500px;
-    margin: 92px 2px 42px 40px;
-    font-family: 'Roboto';
-    font-size: 45px;
+    	padding: 2px;
+    	width: 500px;
+    	margin: 92px 2px 42px 40px;
+    	font-family: 'Roboto';
+    	font-size: 45px;
 }
 
 #myPicture{
@@ -139,14 +139,14 @@ Strong{
 
 @media screen and (max-width: 600px) {
   .top {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
+    	width: 100%;
+    	display: block;
+    	margin-bottom: 20px;
   }
 }
 .myPicture{object-fit: fill;}
 .resumePage {
-  padding: 16px;
+  	padding: 16px;
 }
 
 
@@ -185,20 +185,20 @@ Strong{
 
 @media screen and (max-width: 600px) {
   .ILcol {
-    width: 100%;
-    display: block;
-    margin-bottom: 10px;
+    	width: 100%;
+    	display: block;
+    	margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 800px) {
   body {
-    width: 100%;
-    margin-bottom: 10px;
+    	width: 100%;
+    	margin-bottom: 10px;
   }
 }
 .about_the_language {
-  padding:20px;
-  text-align: center;
+  	padding:20px;
+  	text-align: center;
 }
 
 
